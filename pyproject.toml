@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rss_reader"
-version = "0.1.0"
+name = "news_me"
+version = "0.1.1"
 description = "An news ticker RSS reader just for me"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -21,20 +21,3 @@ Homepage = "https://github.com/jgonz0010/news_me"
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
-
-[project]
-name = "rss_reader"
-version = "0.1.0"
-description = "An news ticker RSS reader just for me"
-readme = "README.md"
-license = { file = "LICENSE" }
-authors = [
-    { name="Javier Gonzalez", email="jgonz0010@gmail.com" }
-]
-dependencies = [
-    "requests",
-    "feedparser"
-]
-
-[project.urls]
-Homepage = "https://github.com/jgonz0010/news_me"
